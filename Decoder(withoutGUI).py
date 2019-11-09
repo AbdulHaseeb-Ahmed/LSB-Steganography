@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 
 def main():
-    image = Image.open('StegoCat.png', 'r')
+    image = Image.open('StegoCat.qrc', 'r')
     pixels = list(image.getdata())
     pixels_binary_val = pixelDecToBin(pixels)
     decodedmessage = extractMessage(pixels_binary_val, 100)
