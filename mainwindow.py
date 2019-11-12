@@ -99,7 +99,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.Welcome.setText(_translate("MainWindow", "Welcome to LSB Steganography"))
+        self.Welcome.setText(_translate("MainWindow", "Welcome to LSB Stegonagraphy"))
         self.Encode.setText(_translate("MainWindow", "Encode"))
         self.Decode.setText(_translate("MainWindow", "Decode"))
         
